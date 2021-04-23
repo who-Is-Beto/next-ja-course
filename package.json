@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "dev:inspect": "npm --node-options=--inspect=0.0.0.0:3001 run dev",
     "start": "next start",
     "type-check": "tsc --noEmit"
   },
